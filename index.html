@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_c9d40ac7449bee10dd18368912b8d553 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_c9d40ac7449bee10dd18368912b8d553" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_c9d40ac7449bee10dd18368912b8d553 = L.map(
+                "map_c9d40ac7449bee10dd18368912b8d553",
+                {
+                    center: [33.848025, 134.2431628],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 9,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_cabf180c305d605e94afb72b40c65435 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_c9d40ac7449bee10dd18368912b8d553);
+        
+    
+            var marker_665549b3ecd29cd67d77ffff9cbf8df7 = L.marker(
+                [34.0792794, 134.5069953],
+                {}
+            ).addTo(map_c9d40ac7449bee10dd18368912b8d553);
+        
+    
+            var icon_58f1d3f944e51a2dafda111f9727129c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_665549b3ecd29cd67d77ffff9cbf8df7.setIcon(icon_58f1d3f944e51a2dafda111f9727129c);
+        
+    
+        var popup_2a0af56fa3086a04989ac3a1926b4771 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c5bce841c423220780ccfaca9fe71e74 = $(`<div id="html_c5bce841c423220780ccfaca9fe71e74" style="width: 100.0%; height: 100.0%;">エディオン タクト店　　　　　　　　　</div>`)[0];
+                popup_2a0af56fa3086a04989ac3a1926b4771.setContent(html_c5bce841c423220780ccfaca9fe71e74);
+            
+        
+
+        marker_665549b3ecd29cd67d77ffff9cbf8df7.bindPopup(popup_2a0af56fa3086a04989ac3a1926b4771)
+        ;
+
+        
+    
+    
+            var marker_38cde5277c01f6b9c5bf5d302319894c = L.marker(
+                [34.1180356, 134.49918],
+                {}
+            ).addTo(map_c9d40ac7449bee10dd18368912b8d553);
+        
+    
+            var icon_27382a2a3fb16d282f146931b2e5330f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_38cde5277c01f6b9c5bf5d302319894c.setIcon(icon_27382a2a3fb16d282f146931b2e5330f);
+        
+    
+        var popup_43a8fa4738f1f7434d1b3d577b5b72f0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_20887b799eadbe8659e1a01214bc4858 = $(`<div id="html_20887b799eadbe8659e1a01214bc4858" style="width: 100.0%; height: 100.0%;">ヤマダデンキ テックランド徳島藍住店　　　　　　　　　　　　　　　　　</div>`)[0];
+                popup_43a8fa4738f1f7434d1b3d577b5b72f0.setContent(html_20887b799eadbe8659e1a01214bc4858);
+            
+        
+
+        marker_38cde5277c01f6b9c5bf5d302319894c.bindPopup(popup_43a8fa4738f1f7434d1b3d577b5b72f0)
+        ;
+
+        
+    
+    
+            var marker_24cf897d655e442c7c03280438f81d63 = L.marker(
+                [34.1327295, 134.5763932],
+                {}
+            ).addTo(map_c9d40ac7449bee10dd18368912b8d553);
+        
+    
+            var icon_01fcd49c54491992ae7ecbf626e6da9a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_24cf897d655e442c7c03280438f81d63.setIcon(icon_01fcd49c54491992ae7ecbf626e6da9a);
+        
+    
+        var popup_93d8e6114c3ff92c05c70da0a0d00444 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e65d170859a58b5f61098da9a9036855 = $(`<div id="html_e65d170859a58b5f61098da9a9036855" style="width: 100.0%; height: 100.0%;">ヤマダデンキ テックランド徳島松茂店　　　　　　　　　　　　　　　　　</div>`)[0];
+                popup_93d8e6114c3ff92c05c70da0a0d00444.setContent(html_e65d170859a58b5f61098da9a9036855);
+            
+        
+
+        marker_24cf897d655e442c7c03280438f81d63.bindPopup(popup_93d8e6114c3ff92c05c70da0a0d00444)
+        ;
+
+        
+    
+    
+            var marker_c2ee20fa358466c0c998e7f5a8c544f7 = L.marker(
+                [34.0414234, 134.0631097],
+                {}
+            ).addTo(map_c9d40ac7449bee10dd18368912b8d553);
+        
+    
+            var icon_26f1d5175712da23b671c21c575a7f80 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_c2ee20fa358466c0c998e7f5a8c544f7.setIcon(icon_26f1d5175712da23b671c21c575a7f80);
+        
+    
+        var popup_b4a1cced06d184ffb277b3c6158588e5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a51222871a8edcc19a6b74bd848107c0 = $(`<div id="html_a51222871a8edcc19a6b74bd848107c0" style="width: 100.0%; height: 100.0%;">ヤマダデンキ テックランド徳島美馬店　　　　　　　　　　　　　　　　　</div>`)[0];
+                popup_b4a1cced06d184ffb277b3c6158588e5.setContent(html_a51222871a8edcc19a6b74bd848107c0);
+            
+        
+
+        marker_c2ee20fa358466c0c998e7f5a8c544f7.bindPopup(popup_b4a1cced06d184ffb277b3c6158588e5)
+        ;
+
+        
+    
+    
+            var marker_1c1dee058fdac8e3bff71ae01b9715ae = L.marker(
+                [34.1747409, 134.6149136],
+                {}
+            ).addTo(map_c9d40ac7449bee10dd18368912b8d553);
+        
+    
+            var icon_52e3ec7e4536a8ff0518cde7273c66ac = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_1c1dee058fdac8e3bff71ae01b9715ae.setIcon(icon_52e3ec7e4536a8ff0518cde7273c66ac);
+        
+    
+        var popup_c25717a183998fedecc24d9ba30df6ae = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_661dc2480e39b3a931fdd25106aaac91 = $(`<div id="html_661dc2480e39b3a931fdd25106aaac91" style="width: 100.0%; height: 100.0%;">ヤマダデンキ テックランド鳴門店　　　　　　　　　　　　　　　</div>`)[0];
+                popup_c25717a183998fedecc24d9ba30df6ae.setContent(html_661dc2480e39b3a931fdd25106aaac91);
+            
+        
+
+        marker_1c1dee058fdac8e3bff71ae01b9715ae.bindPopup(popup_c25717a183998fedecc24d9ba30df6ae)
+        ;
+
+        
+    
+    
+            var marker_336664035d37f05f3bbdec79f4ed6f46 = L.marker(
+                [34.0446501, 134.5587181],
+                {}
+            ).addTo(map_c9d40ac7449bee10dd18368912b8d553);
+        
+    
+            var icon_df15979dd0d6459f6fe3a08ed64bcf90 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_336664035d37f05f3bbdec79f4ed6f46.setIcon(icon_df15979dd0d6459f6fe3a08ed64bcf90);
+        
+    
+        var popup_23227e5423ddc44b1fefb69ab6b831cd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ca62381ca48a6dfe7a4527e7db5f9ee0 = $(`<div id="html_ca62381ca48a6dfe7a4527e7db5f9ee0" style="width: 100.0%; height: 100.0%;">ヤマダデンキ テックランドマルナカ徳島店　　　　　　　　　　　　　　　　　　　</div>`)[0];
+                popup_23227e5423ddc44b1fefb69ab6b831cd.setContent(html_ca62381ca48a6dfe7a4527e7db5f9ee0);
+            
+        
+
+        marker_336664035d37f05f3bbdec79f4ed6f46.bindPopup(popup_23227e5423ddc44b1fefb69ab6b831cd)
+        ;
+
+        
+    
+    
+            var marker_a0d90a7ed895e39f21ae6021f91a0936 = L.marker(
+                [34.0584045, 134.2418245],
+                {}
+            ).addTo(map_c9d40ac7449bee10dd18368912b8d553);
+        
+    
+            var icon_c4a770cfd6960de4f08328d5b35ea882 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_a0d90a7ed895e39f21ae6021f91a0936.setIcon(icon_c4a770cfd6960de4f08328d5b35ea882);
+        
+    
+        var popup_6266deb215efdee699f16863a9f91ef9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_42be402bcbf4b41984433732f7fd2e5a = $(`<div id="html_42be402bcbf4b41984433732f7fd2e5a" style="width: 100.0%; height: 100.0%;">ヤマダデンキ ヤマダアウトレット吉野川店　　　　　　　　　　　　　　　　　　　</div>`)[0];
+                popup_6266deb215efdee699f16863a9f91ef9.setContent(html_42be402bcbf4b41984433732f7fd2e5a);
+            
+        
+
+        marker_a0d90a7ed895e39f21ae6021f91a0936.bindPopup(popup_6266deb215efdee699f16863a9f91ef9)
+        ;
+
+        
+    
+    
+            var marker_cf5ce798b96166a7bac85a8cb04a759b = L.marker(
+                [34.0871234, 134.5497321],
+                {}
+            ).addTo(map_c9d40ac7449bee10dd18368912b8d553);
+        
+    
+            var icon_179f148750b8a256e2e212fd4883495b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_cf5ce798b96166a7bac85a8cb04a759b.setIcon(icon_179f148750b8a256e2e212fd4883495b);
+        
+    
+        var popup_dee1095fb077b19a7c28c6d69272de40 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7d1269485b6251987deec569ab8752f4 = $(`<div id="html_7d1269485b6251987deec569ab8752f4" style="width: 100.0%; height: 100.0%;">ヤマダデンキ Tecc LIFE SELECT 徳島本店　　　　　　　　　　　　　　　　　　　</div>`)[0];
+                popup_dee1095fb077b19a7c28c6d69272de40.setContent(html_7d1269485b6251987deec569ab8752f4);
+            
+        
+
+        marker_cf5ce798b96166a7bac85a8cb04a759b.bindPopup(popup_dee1095fb077b19a7c28c6d69272de40)
+        ;
+
+        
+    
+    
+            var marker_9265462bc0f6e8b7385baa44e4b5067a = L.marker(
+                [34.1163975, 134.5042361],
+                {}
+            ).addTo(map_c9d40ac7449bee10dd18368912b8d553);
+        
+    
+            var icon_68d1369445c1529f4f3338fe743d4c81 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_9265462bc0f6e8b7385baa44e4b5067a.setIcon(icon_68d1369445c1529f4f3338fe743d4c81);
+        
+    
+        var popup_f42d9951d9b076ec3d12c78215fe26f2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_38b60559729c070d9717c0c371cf3cb6 = $(`<div id="html_38b60559729c070d9717c0c371cf3cb6" style="width: 100.0%; height: 100.0%;">ケーズデンキ 藍住店　　　　　　　　　</div>`)[0];
+                popup_f42d9951d9b076ec3d12c78215fe26f2.setContent(html_38b60559729c070d9717c0c371cf3cb6);
+            
+        
+
+        marker_9265462bc0f6e8b7385baa44e4b5067a.bindPopup(popup_f42d9951d9b076ec3d12c78215fe26f2)
+        ;
+
+        
+    
+    
+            var marker_51435b679dec732e3cbe5548eb34fcd1 = L.marker(
+                [33.9168551, 134.6727495],
+                {}
+            ).addTo(map_c9d40ac7449bee10dd18368912b8d553);
+        
+    
+            var icon_358fb0c9cc9618ab7f91caa73c8970b9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_51435b679dec732e3cbe5548eb34fcd1.setIcon(icon_358fb0c9cc9618ab7f91caa73c8970b9);
+        
+    
+        var popup_6c1c485915bbe25864df1f58f4990873 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_193fc1e4e98a58831f24c8dcdd1a22aa = $(`<div id="html_193fc1e4e98a58831f24c8dcdd1a22aa" style="width: 100.0%; height: 100.0%;">ケーズデンキ 阿南店　　　　　　　　　</div>`)[0];
+                popup_6c1c485915bbe25864df1f58f4990873.setContent(html_193fc1e4e98a58831f24c8dcdd1a22aa);
+            
+        
+
+        marker_51435b679dec732e3cbe5548eb34fcd1.bindPopup(popup_6c1c485915bbe25864df1f58f4990873)
+        ;
+
+        
+    
+    
+            var marker_94dbb98c77dab35ec9cbc10afa2085fa = L.marker(
+                [34.0497976, 134.5524917],
+                {}
+            ).addTo(map_c9d40ac7449bee10dd18368912b8d553);
+        
+    
+            var icon_6e2d72127e4ce0b8c312c8019fe92633 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_94dbb98c77dab35ec9cbc10afa2085fa.setIcon(icon_6e2d72127e4ce0b8c312c8019fe92633);
+        
+    
+        var popup_7242836fb780ac34584d7a920c432293 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_440c6237de9d5b3bfdd2bf2a07a79c07 = $(`<div id="html_440c6237de9d5b3bfdd2bf2a07a79c07" style="width: 100.0%; height: 100.0%;">ケーズデンキ 沖浜店　　　　　　　　　</div>`)[0];
+                popup_7242836fb780ac34584d7a920c432293.setContent(html_440c6237de9d5b3bfdd2bf2a07a79c07);
+            
+        
+
+        marker_94dbb98c77dab35ec9cbc10afa2085fa.bindPopup(popup_7242836fb780ac34584d7a920c432293)
+        ;
+
+        
+    
+    
+            var marker_93b1d9328e599b687f3214e5e215d737 = L.marker(
+                [34.0835757, 134.3877096],
+                {}
+            ).addTo(map_c9d40ac7449bee10dd18368912b8d553);
+        
+    
+            var icon_b52b4ed4ac271983125ff8a4b84693b5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_93b1d9328e599b687f3214e5e215d737.setIcon(icon_b52b4ed4ac271983125ff8a4b84693b5);
+        
+    
+        var popup_364c0602a4a8461f128741f395c8870c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a04f1c0436b860297eb86aa4821a01da = $(`<div id="html_a04f1c0436b860297eb86aa4821a01da" style="width: 100.0%; height: 100.0%;">ケーズデンキ 鴨島店　　　　　　　　　</div>`)[0];
+                popup_364c0602a4a8461f128741f395c8870c.setContent(html_a04f1c0436b860297eb86aa4821a01da);
+            
+        
+
+        marker_93b1d9328e599b687f3214e5e215d737.bindPopup(popup_364c0602a4a8461f128741f395c8870c)
+        ;
+
+        
+    
+    
+            var marker_8d8eeaab29a98eb022d2cd1a1c58eb9d = L.marker(
+                [34.0649367, 134.1598082],
+                {}
+            ).addTo(map_c9d40ac7449bee10dd18368912b8d553);
+        
+    
+            var icon_1ccc049d00d45c7d76ae4b89c6efb70c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_8d8eeaab29a98eb022d2cd1a1c58eb9d.setIcon(icon_1ccc049d00d45c7d76ae4b89c6efb70c);
+        
+    
+        var popup_a63a70fb2f5c6d9d12271ff492d1bb53 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d6b25a2804a76d84edcdcc8972c8544a = $(`<div id="html_d6b25a2804a76d84edcdcc8972c8544a" style="width: 100.0%; height: 100.0%;">ケーズデンキ 脇町店　　　　　　　　　</div>`)[0];
+                popup_a63a70fb2f5c6d9d12271ff492d1bb53.setContent(html_d6b25a2804a76d84edcdcc8972c8544a);
+            
+        
+
+        marker_8d8eeaab29a98eb022d2cd1a1c58eb9d.bindPopup(popup_a63a70fb2f5c6d9d12271ff492d1bb53)
+        ;
+
+        
+    
+    
+            var marker_aa5825280372eb31d9f2170533d37fd4 = L.marker(
+                [34.0625099, 134.5734905],
+                {}
+            ).addTo(map_c9d40ac7449bee10dd18368912b8d553);
+        
+    
+            var icon_6ada7c09473f0deec8e210e141400505 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_aa5825280372eb31d9f2170533d37fd4.setIcon(icon_6ada7c09473f0deec8e210e141400505);
+        
+    
+        var popup_20a476861c4969a4be0798747453ae67 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c5e1677bfd0edb71c3fae5cafbae4ff9 = $(`<div id="html_c5e1677bfd0edb71c3fae5cafbae4ff9" style="width: 100.0%; height: 100.0%;">イオンモバイル 徳島店　　　　　　　　　　</div>`)[0];
+                popup_20a476861c4969a4be0798747453ae67.setContent(html_c5e1677bfd0edb71c3fae5cafbae4ff9);
+            
+        
+
+        marker_aa5825280372eb31d9f2170533d37fd4.bindPopup(popup_20a476861c4969a4be0798747453ae67)
+        ;
+
+        
+    
+    
+            var marker_552d06e3b135531f558fc77115a8da21 = L.marker(
+                [34.0517457, 134.5531494],
+                {}
+            ).addTo(map_c9d40ac7449bee10dd18368912b8d553);
+        
+    
+            var icon_adc38e1b8514a180b6764db405ae16ce = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_552d06e3b135531f558fc77115a8da21.setIcon(icon_adc38e1b8514a180b6764db405ae16ce);
+        
+    
+        var popup_d408908f8632e3f800a122ca99c359be = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_10f771862a9cdf69e052909ac121c4ac = $(`<div id="html_10f771862a9cdf69e052909ac121c4ac" style="width: 100.0%; height: 100.0%;">パソコン工房 徳島店　　　　　　　　　</div>`)[0];
+                popup_d408908f8632e3f800a122ca99c359be.setContent(html_10f771862a9cdf69e052909ac121c4ac);
+            
+        
+
+        marker_552d06e3b135531f558fc77115a8da21.bindPopup(popup_d408908f8632e3f800a122ca99c359be)
+        ;
+
+        
+    
+    
+            var marker_e8975e03c85d209054393b9c051dd3fa = L.marker(
+                [34.3481671, 134.0515907],
+                {}
+            ).addTo(map_c9d40ac7449bee10dd18368912b8d553);
+        
+    
+            var icon_1fe8c8133e37648a305ba0f8680447c4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "white", "prefix": "glyphicon"}
+            );
+            marker_e8975e03c85d209054393b9c051dd3fa.setIcon(icon_1fe8c8133e37648a305ba0f8680447c4);
+        
+    
+        var popup_4d8d99f2916a0ced117ff599b0575738 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f8de958b61ac61c79986eff8719811a8 = $(`<div id="html_f8de958b61ac61c79986eff8719811a8" style="width: 100.0%; height: 100.0%;">マーキュリー 香川営業所　　　　　　　　　　　</div>`)[0];
+                popup_4d8d99f2916a0ced117ff599b0575738.setContent(html_f8de958b61ac61c79986eff8719811a8);
+            
+        
+
+        marker_e8975e03c85d209054393b9c051dd3fa.bindPopup(popup_4d8d99f2916a0ced117ff599b0575738)
+        ;
+
+        
+    
+</script>
+</html>
