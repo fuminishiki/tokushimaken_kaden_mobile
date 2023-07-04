@@ -12,18 +12,6 @@ m
 folium.Marker(location=[34.1327295,134.5763932],popup='ヤマダデンキ テックランド徳島松茂店　　　　　　　　　　　　　　　　　',icon=folium.Icon(color="red")).add_to(m)
 m
 
-folium.Marker(location=[34.0414234,134.0631097],popup='ヤマダデンキ テックランド徳島美馬店　　　　　　　　　　　　　　　　　',icon=folium.Icon(color="red")).add_to(m)
-m
-
-folium.Marker(location=[34.1747409,134.6149136],popup='ヤマダデンキ テックランド鳴門店　　　　　　　　　　　　　　　',icon=folium.Icon(color="red")).add_to(m)
-m
-
-folium.Marker(location=[34.0446501,134.5587181],popup='ヤマダデンキ テックランドマルナカ徳島店　　　　　　　　　　　　　　　　　　　',icon=folium.Icon(color="red")).add_to(m)
-m
-
-folium.Marker(location=[34.0584045,134.2418245],popup='ヤマダデンキ ヤマダアウトレット吉野川店　　　　　　　　　　　　　　　　　　　',icon=folium.Icon(color="red")).add_to(m)
-m
-
 folium.Marker(location=[34.0871234,134.5497321],popup='ヤマダデンキ Tecc LIFE SELECT 徳島本店　　　　　　　　　　　　　　　　　　　',icon=folium.Icon(color="red")).add_to(m)
 m
 
